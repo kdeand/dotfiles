@@ -1,6 +1,7 @@
 # Compatibility
 
 These scripts were written and tested on **Linux Mint with the GNOME Desktop Environment**. They may work on other Linux distributions and desktop environments, but some scripts may require additional packages to be installed.
+Since these are simple shell scripts, they are executable with custom keyboard shortcuts set by *you*. 
 
 ## Workspace Cleaner: `clean_workspace.sh`
 
