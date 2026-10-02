@@ -14,4 +14,18 @@ sudo apt install wmctrl
 Clears all open windows in the current workspace.
 
 **Warning:**
-Some applications may still show a confirmation prompt before closing. The script does not override these termination confirmations.
+Some applications may still show a confirmation prompt before closing. The scrip does not override these termination confirmations.
+
+## Activation
+
+1. Make the script executable:
+
+```bash
+chmod +x clean_workspace.sh
+```
+
+2. Run the script:
+
+```bash
+./clean_workspace.sh
+```
