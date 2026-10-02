@@ -1,7 +1,17 @@
 # Compatibility
-	: Scripts were written in a Linux Mint, Gnome Desktop Environment. Compatibility might not be an issue for everything else but small packages installation might be needed for some of these scripts.
 
-## Workspace Cleaner: clean_workspace.sh 
-		: install wmctrl `sudo apt install wmctrl`
-		: Clears all windows in workspace.
-		: Warning: it does not override confirmation of termination for some running apps.
+These scripts were written and tested on **Linux Mint with the GNOME Desktop Environment**. They may work on other Linux distributions and desktop environments, but some scripts may require additional packages to be installed.
+
+## Workspace Cleaner: `clean_workspace.sh`
+
+**Requirement:**
+
+```bash
+sudo apt install wmctrl
+```
+
+**Description:**
+Clears all open windows in the current workspace.
+
+**Warning:**
+Some applications may still show a confirmation prompt before closing. The script does not override these termination confirmations.
