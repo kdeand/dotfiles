@@ -1,4 +1,5 @@
-# These scripts are compatible with Linux Mint; GNOME desktop environment.
+# Compatibility
+	: Scripts were written in a Linux Mint, Gnome Desktop Environment. Compatibility might not be an issue for everything else but small packages installation might be needed for some of these scripts.
 
 ## Workspace Cleaner: clean_workspace.sh 
 		: install wmctrl `sudo apt install wmctrl`
